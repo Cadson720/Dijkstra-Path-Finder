@@ -396,12 +396,6 @@ Graph<T> singleSourceLazy(const Graph<T>& G, int source) {
   return shortestPaths;
 }
 
-// Implement your solution using std::set here
-template <typename T>
-Graph<T> singleSourceSet(const Graph<T>& G, int source) {
-  return Graph<T> {G.size()};
-}
-
 // put your "best" solution here
 // this is the one we will use for performance testing
 template <typename T>
